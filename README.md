@@ -28,8 +28,8 @@ git checkout one-to-many
 ## 2. Many-to-Many
 ### Setup
 ```
-git checkout master
 git checkout many-to-many
+rake db:drop db:create
 ```
 ### User Stories
 1. A student has many subjects.
@@ -45,8 +45,8 @@ git checkout many-to-many
 ## 3. Self-Referential
 ### Setup
 ```
-git checkout master
 git checkout self-referential
+rake db:drop db:create
 ```
 1. A user can follow many users.
 2. A user can be followed by many users.
