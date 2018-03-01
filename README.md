@@ -8,7 +8,7 @@ bundle install
 rake db:create 
 ```
 ### Instruction
-Generate/modify migration files, model files & use the rails console to fulfil the user stories
+Generate/modify migration files, model files & use the rails console to fulfil the user stories.
 
 ## 1. One-to-Many
 ### Setup
@@ -16,6 +16,7 @@ Generate/modify migration files, model files & use the rails console to fulfil t
 git checkout one-to-many
 ```
 ### User Stories
+*(Note: User & Post model have been generated for you)*
 1. A user has many posts.
 2. A post belongs to a user.
 3. When a user is destroyed, all his/her posts should be deleted automatically.
@@ -32,6 +33,7 @@ git checkout many-to-many
 rake db:drop db:create
 ```
 ### User Stories
+*(Note: Student & Subject model have been generated for you)*
 1. A student has many subjects.
 2. A subject has many students.
 3. There are 2 students named 'Alan' & 'Betty' in the database.
@@ -48,6 +50,8 @@ rake db:drop db:create
 git checkout self-referential
 rake db:drop db:create
 ```
+### User Stories
+*(Note: User model has been generated for you)*
 1. A user can follow many users.
 2. A user can be followed by many users.
 3. There are 2 users named 'Alan' & 'Betty' in the database.
