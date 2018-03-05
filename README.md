@@ -26,6 +26,8 @@ git checkout one-to-many
 7. Peter decides to terminate his account and therefore be destroyed in the database.
 8. All of Peter's posts should be gone.
 
+[Solution](https://gist.github.com/raegertay/0994f3b2830c7756db1b333208f7fd9c)
+
 ## 2. Many-to-Many
 ### Setup
 ```
@@ -44,6 +46,8 @@ rake db:drop db:create
 8. Alan has graduated and therefore be destroyed in the database.
 9. The list of students who study maths does not include Alan now.
 
+[Solution](https://gist.github.com/raegertay/25d8a2ccd97d99a4fb48a41926357784)
+
 ## 3. Self-Referential
 ### Setup
 ```
@@ -60,3 +64,5 @@ rake db:drop db:create
 6. I can query the list of users that is following Betty (i.e Alan)
 7. Betty decides to terminate her account and therefore be destroyed in the database.
 8. The list of users that Alan is following does not include Betty now.
+
+[Solution](https://gist.github.com/raegertay/a38010f6d400202ae6141a4c7b25744d)
